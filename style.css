@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+    nav{
+        max-width:80% ;
+        padding-left:10%;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+     
+      
+    }
+
+        nav > img {
+            height:146px;
+            width: 203px;
+        }
+
+        nav > li{
+            text-align: center;
+            max-width: 100%;
+            padding-top:2em;
+            margin: 3rem;
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: bold;
+
+        }
+
+       
