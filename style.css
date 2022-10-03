@@ -45,6 +45,9 @@
 
             main{
                 display: grid;
+                font-family: 'Roboto Flex', sans-serif;
+                
+               
 
             }
 
@@ -64,10 +67,29 @@
                     
                 }
 
-                .article p {
+                .Title{
                     font-family: 'Roboto Flex', sans-serif;
                     font-size: 1.5em;
                     padding-left: 10%;
                     margin-top: 3rem;
-
                 }
+
+                .article{
+                    display: grid;
+                    grid-template-columns: auto;
+                    justify-content: center;
+                    flex-direction: row;
+                    padding-top: 4.5rem;
+                    gap: 3rem;
+                    margin:5rem;
+                    
+                    
+                }
+                                        .article1{
+                                            border-radius: 30px;
+                                            box-shadow: -2px 1px 112px -29px rgba(189,188,188,0.65);
+                                            
+                                            
+                                          
+                                        }
+               
