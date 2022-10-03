@@ -17,19 +17,57 @@
       
     }
 
-        nav > img {
-            height:146px;
-            width: 203px;
-        }
+                nav > img {
+                    height:146px;
+                    width: 203px;
+                
+                }
 
-        nav > li{
-            text-align: center;
-            max-width: 100%;
-            padding-top:2em;
-            margin: 3rem;
-            font-family: 'Roboto Flex', sans-serif;
-            font-weight: bold;
+                nav > li{
+                    text-align: center;
+                    box-shadow: none;
+                    max-width: 100%;
+                    padding-top:2em;
+                    margin: 3rem;
+                    font-family: 'Roboto Flex', sans-serif;
+                    font-weight: bold;
 
-        }
+                }
 
-       
+
+            nav a {
+                text-decoration: none;
+                color: black;
+            
+            }
+
+
+
+            main{
+                display: grid;
+
+            }
+
+                main img {
+                    max-width: 95vw;
+                    border-radius: 30px;
+               
+                
+
+
+                }
+
+                .heroBanner{
+
+                    display: flex;
+                    justify-self: center;
+                    
+                }
+
+                .article p {
+                    font-family: 'Roboto Flex', sans-serif;
+                    font-size: 1.5em;
+                    padding-left: 10%;
+                    margin-top: 3rem;
+
+                }
