@@ -5,8 +5,6 @@
 }
 
 
-
-
     nav{
         max-width:80% ;
         padding-left:10%;
@@ -44,15 +42,17 @@
 
 
             main{
-                display: grid;
+                display: flex;
                 font-family: 'Roboto Flex', sans-serif;
+                grid-template-rows: 0.8fr 2rem 1fr;
+                max-width:95%;
                 
                
 
             }
 
                 main img {
-                    max-width: 95vw;
+                  
                     border-radius: 30px;
                
                 
@@ -63,7 +63,10 @@
                 .heroBanner{
 
                     display: flex;
-                    justify-self: center;
+                    justify-content: center;
+                    max-height: 25em;
+                    max-width: 50%;
+                    padding-left: 18em;
                     
                 }
 
@@ -75,21 +78,61 @@
                 }
 
                 .article{
-                    display: grid;
-                    grid-template-columns: auto;
-                    justify-content: center;
-                    flex-direction: row;
-                    padding-top: 4.5rem;
-                    gap: 3rem;
-                    margin:5rem;
+                    display:grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    max-width: fit-content;
+                    row-gap: 3rem;
+                    
+
                     
                     
                 }
+
                                         .article1{
                                             border-radius: 30px;
                                             box-shadow: -2px 1px 112px -29px rgba(189,188,188,0.65);
-                                            
+                                            padding: 3rem;
                                             
                                           
                                         }
-               
+
+                                        .article2{
+                                            border-radius: 30px;
+                                            box-shadow: -2px 1px 112px -29px rgba(189,188,188,0.65);
+                                            padding: 3rem;
+                                            
+                                          
+                                        }
+
+                                        .article3{
+                                            border-radius: 30px;
+                                            box-shadow: -2px 1px 112px -29px rgba(189,188,188,0.65);
+                                            padding: 3rem;
+                                            
+                                          
+                                        }
+                                        .article4{
+                                            border-radius: 30px;
+                                            box-shadow: -2px 1px 112px -29px rgba(189,188,188,0.65);
+                                            padding: 3rem;
+                                            
+                                          
+                                        }
+
+                                        .article5{
+                                            border-radius: 30px;
+                                            box-shadow: -2px 1px 112px -29px rgba(189,188,188,0.65);
+                                            padding: 3rem;
+                                            
+                                          
+                                        }
+
+                                        .article6{
+                                            border-radius: 30px;
+                                            box-shadow: -2px 1px 112px -29px rgba(189,188,188,0.65);
+                                            padding: 3rem;
+                                            
+                                          
+                                        }
+
+                                    
